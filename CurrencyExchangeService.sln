@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchangeService.WebApi", "src\CurrencyExchangeService.WebApi\CurrencyExchangeService.WebApi.csproj", "{827C1D95-FB4E-47FB-B94A-0712ED053016}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DE40AF78-5037-49EE-B97B-EBA7E612B1B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FE17B7B1-6430-41CA-97D1-A4CE45A5802C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchangeService.Contracts", "src\CurrencyExchangeService.Contracts\CurrencyExchangeService.Contracts.csproj", "{AADD282D-6024-4D06-9B42-E2A18235A273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchangeService.RateExchangeClient", "src\CurrencyExchangeService.RateExchangeClient\CurrencyExchangeService.RateExchangeClient.csproj", "{B204B3F6-63DD-4503-ABD9-FCBBD2113BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchangeService.WebApi.IntegrationTests", "tests\CurrencyExchangeService.WebApi.IntegrationTests\CurrencyExchangeService.WebApi.IntegrationTests.csproj", "{0080C1A8-D24D-47E6-ADA9-55245A69EFDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{827C1D95-FB4E-47FB-B94A-0712ED053016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827C1D95-FB4E-47FB-B94A-0712ED053016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827C1D95-FB4E-47FB-B94A-0712ED053016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827C1D95-FB4E-47FB-B94A-0712ED053016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADD282D-6024-4D06-9B42-E2A18235A273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADD282D-6024-4D06-9B42-E2A18235A273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADD282D-6024-4D06-9B42-E2A18235A273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADD282D-6024-4D06-9B42-E2A18235A273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B204B3F6-63DD-4503-ABD9-FCBBD2113BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B204B3F6-63DD-4503-ABD9-FCBBD2113BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B204B3F6-63DD-4503-ABD9-FCBBD2113BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B204B3F6-63DD-4503-ABD9-FCBBD2113BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0080C1A8-D24D-47E6-ADA9-55245A69EFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0080C1A8-D24D-47E6-ADA9-55245A69EFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0080C1A8-D24D-47E6-ADA9-55245A69EFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0080C1A8-D24D-47E6-ADA9-55245A69EFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{827C1D95-FB4E-47FB-B94A-0712ED053016} = {FE17B7B1-6430-41CA-97D1-A4CE45A5802C}
+		{AADD282D-6024-4D06-9B42-E2A18235A273} = {FE17B7B1-6430-41CA-97D1-A4CE45A5802C}
+		{B204B3F6-63DD-4503-ABD9-FCBBD2113BAD} = {FE17B7B1-6430-41CA-97D1-A4CE45A5802C}
+		{0080C1A8-D24D-47E6-ADA9-55245A69EFDA} = {DE40AF78-5037-49EE-B97B-EBA7E612B1B8}
+	EndGlobalSection
+EndGlobal
