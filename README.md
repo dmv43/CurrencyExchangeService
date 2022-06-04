@@ -13,3 +13,5 @@ It has one endpoint at the address ```currency/exchange```.
 }
 ```
 Effective date can be omitted, which would mean date would be current if applicable or most recent date for which there is conversion rate.
+
+Currency exchange rates are sourced from Bank of Canada Valet API
